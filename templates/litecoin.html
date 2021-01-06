@@ -1,0 +1,42 @@
+<html style="background-color:#d9f9f5">
+
+<h1 align="center">
+    Litecoin: {{symbol}}
+</h1>
+
+<!--current price-->
+<h2 style="color :green;" align="middle">
+    {{price}}
+</h2>
+
+<!--today's return-->
+<h3 style="color :{{color}};" align="middle">
+    {{daily_return}} today
+</h3>
+
+<!--litecoin image-->
+<img src="{{image}}" alt="a litecoin" align="center">
+
+<!--graph-->
+<p align="right">Litecoin's price over the past 24 hours</p>
+<img src="data:image/png;base64, {{plot_url}}" align="right">
+
+<!--info-->
+<h3>Inception: {{inception_date}}</h3>
+<h3>Market cap: {{market_cap}} (rank {{cap_rank}})</h3>
+<h3>Percentage of Litecoins in circulation: {{pcent_in_circulation}}</h3>
+<a href="{{website}}"><h3>{{website}}</h3> </a>
+
+<!--litecoin desc
+<p align="bottom">
+    {{description}}
+</p>
+-->
+
+<!--homepage link-->
+<a href="http://127.0.0.1:5000">
+    <p><br><br><br><br><br></p>
+    <img src="https://macchoice.com.au/wp-content/uploads/2017/09/cropped-Apps-Home-icon.png" height="50" width="50">
+</a>
+
+</html>

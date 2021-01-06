@@ -1,0 +1,88 @@
+<html>
+
+<head>
+    Welcome to the Crypto Handbook!
+</head>
+
+<!--formatting-->
+<head>
+<style>
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+</style>
+</head>
+<body>
+
+<h3>Click the links to navigate to different coins</h3>
+
+<!--table headers-->
+<table style="width:230; height:; border: 1px solid black;">
+  <tr>
+    <th>Coin</th>
+    <th>     </th>
+    <th>Price</th>
+  </tr>
+
+    <!--bitcoin-->
+  <tr>
+    <td><a href="http://127.0.0.1:5000/bitcoin">
+        <h2>bitcoin</h2>
+        </a>
+    </td>
+    <td><img src="{{btc_img}}" alt="btc"></td>
+    <td>{{btc_price}}</td>
+  </tr>
+
+    <!--ethereum-->
+  <tr>
+    <td><a href="http://127.0.0.1:5000/ethereum">
+        <h2>ethereum</h2>
+        </a></td>
+    <td><img src="{{eth_img}}" alt="eth"></td>
+    <td>{{eth_price}}</td>
+  </tr>
+
+    <!--tether-->
+  <tr>
+    <td><a href="http://127.0.0.1:5000/tether">
+        <h2>tether</h2>
+        </a></td>
+    <td><img src="{{usdt_img}}" alt="usdt"></td>
+    <td>{{usdt_price}}</td>
+  </tr>
+
+    <!--xrp-->
+  <tr>
+    <td><a href="http://127.0.0.1:5000/xrp">
+        <h2>xrp</h2>
+        </a></td>
+    <td><img src="{{xrp_img}}" alt="xrp"></td>
+    <td>{{xrp_price}}</td>
+  </tr>
+
+    <!--litecoin-->
+  <tr>
+    <td><a href="http://127.0.0.1:5000/litecoin">
+        <h2>litecoin</h2>
+        </a></td>
+    <td><img src="{{ltc_img}}" alt="ltc"></td>
+    <td>{{ltc_price}}</td>
+  </tr>
+</table>
+
+</body>
+
+</html>
